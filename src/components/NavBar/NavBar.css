@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+}
+
+.logo{
+    width: 10rem;
+    height: 3rem;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: black;
+}
+
+.navbar-menu>li:hover {
+    cursor: pointer;
+    color: var(--orange);
+    
+
+}
+
+@media screen and (max-width: 768px){
+    .navbar>:nth-child(2){
+        position: fixed;
+        right: 2rem;
+        z-index: 99;
+    }
+
+    .navbar-menu{
+        flex-direction: column;
+        background-color: aqua;
+        padding: 2rem;
+    }
+
+    .logo{
+        height: 5rem;
+        width: 5rem;
+    }
+}
