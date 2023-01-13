@@ -9,13 +9,13 @@ import Servicios from "./components/Servicios/Servicios.jsx"
 import Contacto from "./components/Contacto/Contacto.jsx"
 import Equipo from './components/Equipo/Equipo'
 import BackToTopButton from './components/BackToTopButton/BackToTopButton'
-import NavBar from './components/NavBar/NavBar'
+// import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
 
 function App() {
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
       <div className="App">
         <Inicio />
         <Nosotros />
