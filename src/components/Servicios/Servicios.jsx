@@ -3,7 +3,7 @@ import "../Servicios/Servicios.css"
 
 const Servicios = () => {
   return (
-    <div className='Servicios'>
+    <div className='Servicios' id='servicios'>
         <h1>Servicios</h1></div>
   )
 }

@@ -4,9 +4,9 @@ import "../Contacto/Contacto.css"
 
 const Contacto = () => {
     return (
-        <div className='Contacto'>
+        <div className='Contacto' id='contacto'>
 
-<div><h1>Contacto</h1></div>
+            <div><h1>Contacto</h1></div>
 
         </div>
     );
