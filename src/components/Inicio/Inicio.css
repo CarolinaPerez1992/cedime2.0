@@ -7,6 +7,14 @@
     height: 100vh;
 }
 
+.animate__fadeIn{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
 /************ Banner Css ************/
 .banner {
     margin-top: 0;

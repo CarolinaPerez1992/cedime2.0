@@ -4,7 +4,7 @@ import "../Colaboradores/Colaboradores.css"
 const Colaboradores = () => {
   return (
     <div className='Colaboradores' id='colaboradores'>
-        <h1>Colaboradores</h1></div>
+        <h1 className=''>Colaboradores</h1></div>
   )
 }
 
