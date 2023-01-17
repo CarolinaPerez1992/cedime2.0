@@ -3,9 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Inicio from "./components/Inicio/Inicio.jsx"
 import Nosotros from "./components/Nosotros/Nosotros.jsx"
 import Filosofia from './components/Filofosia/Filosofia';
-import Galeria from "./components/Galeria/Galeria.jsx"
 import Blog from './components/Blog/Blog.jsx'
 import Colaboradores from "./components/Colaboradores/Colaboradores.jsx"
+import Galeria from './components/Galeria/Galeria.jsx';
 import Servicios from "./components/Servicios/Servicios.jsx"
 import Contacto from "./components/Contacto/Contacto.jsx"
 import Equipo from './components/Equipo/Equipo'
@@ -23,8 +23,8 @@ function App() {
         <Filosofia />
         <Equipo />
         <Colaboradores />
-        <Galeria />
         <Blog /> 
+        <Galeria />
         <Servicios />
         <Contacto />
       </div>
