@@ -1,5 +1,82 @@
 .Galeria{
     background-color: rgb(49, 0, 183);
     width: 100%;
-    height: 80vh;
+    height: 50vh;
+}
+
+.container_galeria{
+    padding: 3rem;
+}
+
+.h2_galeria{
+    font-size: 3rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+.image_galeria{
+    display: block;
+    width: 100%;
+}
+
+/* .over_galeria{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(255, 255, 255, 0.9);
+} */
+
+.caption{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.thumbnail:hove{
+    transform: translateY(-4px);
+}
+
+.img-container:hover .overlay{
+    opacity: 1;
+}
+
+.slider{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.inner{
+    display: flex;
+}
+
+.item{
+    min-height: 200px;
+    min-width: 400px;
+    padding: 14px;
+}
+
+.item img{
+    width: 100%;
+    height: 90%;
+    border-radius: 12px;
+    pointer-events: none;
+}
+
+.carousel{
+    cursor: grab;
+    overflow: hidden;
 }
