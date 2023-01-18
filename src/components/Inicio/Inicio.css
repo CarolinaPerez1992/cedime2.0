@@ -27,11 +27,14 @@
     font-weight: 700;
     letter-spacing: 0.8px;
     padding: 8px 10px;
-    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    /* background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%); */
+    background-color: #9DD6E1;
+    /* border: 1px solid rgba(255, 255, 255, 0.5); */
     font-size: 20px;
     margin-bottom: 16px;
     display: inline-block;
+    border-radius: 0.5rem;
+    letter-spacing: 2px;
   }
   .banner h1 {
     font-size: 65px;
@@ -49,9 +52,9 @@
     width: 96%;
   }
   .banner img {
-    animation: updown 3s linear infinite;
-    height: 5rem;
-    width: 5rem;
+    /* animation: updown 3s linear infinite; */
+    height: 25rem;
+    /* width: 5rem; */
   }
   @keyframes updown {
       0% {
@@ -67,4 +70,5 @@
   .txt-rotate > .wrap {
     border-right: 0.08em solid #666;
   }
+
 
