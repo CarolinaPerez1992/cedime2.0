@@ -51,22 +51,36 @@
 
 .slider{
     width: 100%;
-    max-width: 900px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 70vh;
 }
 
 .inner{
     display: flex;
+    animation: scroll 35s linear infinite ;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 5));
+    }
 }
 
 .item{
     min-height: 200px;
     min-width: 400px;
     padding: 14px;
+}
+
+.inner:hover {
+    animation-play-state: paused;
 }
 
 .item img{

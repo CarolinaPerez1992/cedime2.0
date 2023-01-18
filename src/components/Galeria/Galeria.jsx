@@ -9,7 +9,7 @@ import image3 from '../../Assets/image3.jpg'
 import image4 from '../../Assets/image4.jpg'
 
 
-const images = [image1, image2, image3, image4, image2]
+const images = [image1, image2, image3, image4, image2, image1, image3, image4]
 
 const Galeria = () => {
 
@@ -23,6 +23,7 @@ const Galeria = () => {
 
   return (
     <>
+        <h2 className='h2_galeria' id='galeria'>GALERÍA</h2>
     <div className="slider">
       <motion.div ref={carousel} className='carousel' whileTap={{ cursor: 'grabbing' }}>
           <motion.div 
@@ -45,8 +46,7 @@ const Galeria = () => {
           </motion.div>
       </motion.div>
     </div>
-    <div className="container_galeria" id='galeria'>
-      <h2 className='h2_galeria'>GALERÍA</h2>
+    <div className="container_galeria" >
       <div className="row">
         <div className="col-lg-4 col-sm-6">
           <div className="thumbnail">
