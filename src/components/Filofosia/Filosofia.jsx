@@ -1,5 +1,4 @@
 import React from "react";
-import 'animate.css';
 import Imagen1 from '../../Assets/clipart-special-education-2.jpg'
 // import Imagen2 from '../../Assets/clipat.jpg'
 import "../Filofosia/Filosofia.css";
@@ -7,8 +6,9 @@ import "../Filofosia/Filosofia.css";
 const Filosofia = () => {
   return (
     <div className="Filosofia" id="filosofia">
-      <div>
-        <h1 className='animate__zoomIn'>Filosofía</h1>
+      <div className='contenedor_titulo'>
+        <div className='blob'></div>
+        <h2 className='titulo_filo'>Filosofía</h2>
       </div>
       <div className='filosofia1'>
         <div className='contenedor__imagen'>

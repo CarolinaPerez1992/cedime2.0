@@ -5,7 +5,7 @@ import "../Equipo/Equipo.css"
 const Equipo = () => {
     return (
         <div className='Equipo' id='equipo'>
-
+            <div className='blob1'></div>
             <div><h1>Equipo</h1></div>
 
         </div>
