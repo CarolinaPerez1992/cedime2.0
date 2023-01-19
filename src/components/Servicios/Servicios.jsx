@@ -1,20 +1,27 @@
 import React from "react";
 import "../Servicios/Servicios.css";
 import check from "../../Assets/check-green.png";
+import personas from '../../Assets/image.png'
 
 const Servicios = () => {
   return (
     <div className="Servicios" id="servicios">
-      <h1 className="titulo_servicios">Servicios</h1>
+      <div className='contenedor_titulo'>
+      <div className='blob4'></div>
+      <h2 className="titulo_servicios">Servicios</h2>
+      </div>
+      <div className='contenedor_servicios'>
+        <div className='img_personas'>
+          <img className='personas' src={personas} alt="" />
+        </div>
+        
       <div className="contenedor_check">
         <div className="column">
+          {/* 
+           */}
           <div>
             <img className="img_check" src={check} alt="" />
-            <span>Abordaje presencial y virtual</span>
-          </div>
-          <div>
-            <img className="img_check" src={check} alt="" />
-            <span>Psicología (individual, grupal y familiar)</span>
+            <span>Psicología</span>
           </div>
           <div>
             <img className="img_check" src={check} alt="" />
@@ -78,6 +85,7 @@ const Servicios = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
