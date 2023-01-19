@@ -50,19 +50,19 @@
 }
 
 .imagen1{
-    width: 10rem;
-    height: 14rem;
-    margin-top: 3rem;
-    border: 1px solid black;
-    border-radius: 10px;
+    width: 13rem;
+    height: 15rem;
 }
 
 .imagen2{
-    width: 10rem;
-    height: 14rem;
+    width: 25rem;
+    height: 19rem;
     margin-bottom: 3rem;
-    border: 1px solid black;
-    border-radius: 10px;
+}
+.imagen3 {
+    width: 18rem;
+    height: 18rem;
+
 }
 
 .parrafo1 {
@@ -71,6 +71,7 @@
     display: flex;
     width: 50%;
     text-align: left;
+    font-size: 19px;
 }
 
 .parrafo2 {
@@ -78,5 +79,7 @@
     justify-content: center;
     display: flex;
     width: 60%;
-    text-align: right;
+    text-align: left;
+    font-size: 19px;
 }
+

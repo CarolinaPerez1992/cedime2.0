@@ -1,7 +1,9 @@
 import React from "react";
-import Imagen1 from '../../Assets/clipart-special-education-2.jpg'
+import Imagen1 from '../../Assets/imagen3-removebg-preview.png'
 // import Imagen2 from '../../Assets/clipat.jpg'
 import "../Filofosia/Filosofia.css";
+import Imagen2 from "../../Assets/amigosfelices.png"
+import Imagen3 from "../../Assets/medicoseñora-removebg-preview (2).png"
 
 const Filosofia = () => {
   return (
@@ -13,7 +15,6 @@ const Filosofia = () => {
       <div className='filosofia1'>
         <div className='contenedor__imagen'>
             <img src={Imagen1} className='imagen1' alt="" />
-            <img src={Imagen1} className='imagen2' alt="" />
         </div>
         <div className='parrafo1'>
         <p>
@@ -31,8 +32,7 @@ const Filosofia = () => {
       </div>
       <div className='filosofia2'>
       <div className='contenedor__imagen'>
-            <img src={Imagen1} className='imagen1' alt="" />
-            <img src={Imagen1} className='imagen2' alt="" />
+            <img src={Imagen2} className='imagen2' alt="" />
         </div>
         <div className='parrafo2'>
         <p>
@@ -50,8 +50,8 @@ const Filosofia = () => {
       </div>
       <div className='filosofia1'>
       <div className='contenedor__imagen'>
-            <img src={Imagen1} className='imagen1' alt="" />
-            <img src={Imagen1} className='imagen2' alt="" />
+            <img src={Imagen3} className='imagen3' alt="" />
+          
         </div>
         <div className='parrafo1'>
         <p>

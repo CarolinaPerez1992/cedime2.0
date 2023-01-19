@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
-import logo from '../../Assets/logo-cedime.png';
+import logo from '../../Assets/logo100.png';
 /* import { HashLink } from 'react-router-hash-link'; */
 import {
   BrowserRouter as Router
@@ -34,7 +34,7 @@ function NavBar() {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/" >
-            <img src={logo} alt="Logo" style={{ width: '8rem' }} />
+            <img src={logo} alt="Logo" style={{ width: '4rem'}} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
