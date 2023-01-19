@@ -55,9 +55,9 @@ export const Inicio = () => {
                 <div className="Hero">
                     <NavBar />
                     <section className="banner" id="home">
-                        <Container>
-                            <Row className="align-items-center">
-                                <Col xs={12} md={6} xl={7}>
+                       
+                            <div className="container_hero1">
+                                <div className="text_cedime">
                                     <TrackVisibility>
                                         {({ isVisible }) =>
                                             <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
@@ -66,17 +66,17 @@ export const Inicio = () => {
                                                 <p>Trabajamos día a día con jóvenes y adultos con discapacidad, por una mejor calidad de vida para ellos y su familia. ¡Te invitamos a que nos conozcas!</p>
                                             </div>}
                                     </TrackVisibility>
-                                </Col>
-                                <Col xs={12} md={6} xl={5}>
+                                </div>
+                                <div className="img__hero">
                                     <TrackVisibility>
                                         {({ isVisible }) =>
                                             <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                                                <img src={niña} alt="Header Img" />
+                                                <img src={niña} width="400" height="500" alt="Header Img" />
                                             </div>}
                                     </TrackVisibility>
-                                </Col>
-                            </Row>
-                        </Container>
+                                </div>
+                            </div>
+                
                     </section>
                 </div>
         </>
