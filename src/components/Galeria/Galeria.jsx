@@ -23,7 +23,11 @@ const Galeria = () => {
 
   return (
     <>
-        <h2 className='h2_galeria' id='galeria'>Galería</h2>
+    <div className='Galeria' id="galeria">
+        <div className='contenedor_titulo'>
+      <div className='blob5'></div>
+      <h2 className="titulo_galeria">Galeria</h2>
+      </div>
     <div className="slider">
       <motion.div ref={carousel} className='carousel' whileTap={{ cursor: 'grabbing' }}>
           <motion.div 
@@ -142,6 +146,7 @@ const Galeria = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
     </>
   )

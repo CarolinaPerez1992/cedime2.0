@@ -7,7 +7,10 @@ const Nosotros = () => {
     return (
         <div className='Nosotros'>
 
-<div><h1>Nosotros</h1></div>
+<div className='contenedor_titulo'>
+      <div className='blob6'></div>
+      <h2 className="titulo_nosotros">Nosotros</h2>
+      </div>
 
         </div>
     );
