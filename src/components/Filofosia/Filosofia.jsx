@@ -2,8 +2,8 @@ import React from "react";
 import Imagen1 from '../../Assets/imagen3-removebg-preview.png'
 // import Imagen2 from '../../Assets/clipat.jpg'
 import "../Filofosia/Filosofia.css";
-import Imagen2 from "../../Assets/amigosfelices.png"
-import Imagen3 from "../../Assets/medicoseñora-removebg-preview (2).png"
+import Imagen2 from "../../Assets/equipo.ideas.png"
+import Imagen3 from "../../Assets/personas.felices.png"
 
 const Filosofia = () => {
   return (
