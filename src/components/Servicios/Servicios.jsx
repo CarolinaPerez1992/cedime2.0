@@ -10,15 +10,16 @@ const Servicios = () => {
       <div className='blob4'></div>
       <h2 className="titulo_servicios">Servicios</h2>
       </div>
+
+
+      
       <div className='contenedor_servicios'>
         <div className='img_personas'>
           <img className='personas' src={personas} alt="" />
         </div>
         
-      <div className="contenedor_check">
-        <div className="column">
-          {/* 
-           */}
+     
+        <div className="column_servicio">
           <div>
             <img className="img_check" src={check} alt="" />
             <span>Psicología</span>
@@ -40,7 +41,7 @@ const Servicios = () => {
             <span>Enfermería</span>
           </div>
         </div>
-        <div className="column">
+        <div className="column_servicio">
           <div>
             <img className="img_check" src={check} alt="" />
             <span>Médico</span>
@@ -62,7 +63,7 @@ const Servicios = () => {
             <span>Talleres de arte</span>
           </div>
         </div>
-        <div className="column">
+        <div className="column_servicio">
           <div>
             <img className="img_check" src={check} alt="" />
             <span>Talleres recreativos</span>
@@ -86,7 +87,7 @@ const Servicios = () => {
         </div>
       </div>
     </div>
-    </div>
+    
   );
 };
 

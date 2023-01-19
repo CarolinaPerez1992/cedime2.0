@@ -1,29 +1,20 @@
-.Servicios{
+.Servicios {
     width: 100%;
-    height: 100vh;
-    /* display: flex; */
-    padding-bottom: 1rem;
-    background-color: beige;
-   
-}
-/* .titulo_servicios{
-   
-    align-items: center;
-} */
-.contenedor_servicios{
+    min-height: 100vh;
+    background-color: #F6F4F9;
     display: flex;
+    flex-direction: column;
+    align-content: center;
     flex-wrap: wrap;
-    height: 20rem;
+    align-items: center;
 }
-.img_personas{
-    width: 30vw;
-}
+
 .contenedor_titulo{
     display: flex;
     justify-content:center;
     align-items: center;
     min-height: 14rem;
-    
+
 }
 .blob4 { 
     width: 18rem;
@@ -41,27 +32,29 @@
     z-index: 1;
     padding-left: 4rem;
 }
-.personas{
-    width: 25rem;
-}
 
-.contenedor_check{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    padding-left: 1rem;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
+
+
+
+
+
+    .contenedor_servicios {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+
 .img_check{
     width: 3rem;
 }
-
-.column{
-    width: 100%;
-    height: 50vw;
+.column_servicio{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    flex-wrap: wrap;
+    font-size: 21px;
+
 }

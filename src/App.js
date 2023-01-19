@@ -22,10 +22,10 @@ function App() {
         <Nosotros />
         <Filosofia />
         <Servicios />
-        <Contacto />
         <Equipo /> 
         <Galeria />
         <Blog />
+        <Contacto />
         <Colaboradores />
       </div>
       <BackToTopButton />
