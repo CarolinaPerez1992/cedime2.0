@@ -23,7 +23,7 @@ function BackToTopButton() {
   };
   return (
     <div className="BackToTopButton">
-      {backToTopButton && (
+      {/* {backToTopButton && (
         <button className="buttonToTop" onClick={scrollUp}>
           <div className="box">V</div>
           <div className="box">O</div>
@@ -32,7 +32,10 @@ function BackToTopButton() {
           <div className="box">E</div>
           <div className="box">R</div>
         </button>
-      )}
+      )} */}
+      <button onClick={scrollUp}>
+    <div class="arrow-up"></div>
+</button>
     </div>
   );
 }
