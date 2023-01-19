@@ -21,12 +21,12 @@ function App() {
         <Inicio />
         <Nosotros />
         <Filosofia />
-        <Equipo />
-        <Colaboradores />
-        <Blog /> 
-        <Galeria />
         <Servicios />
         <Contacto />
+        <Equipo /> 
+        <Galeria />
+        <Blog />
+        <Colaboradores />
       </div>
       <BackToTopButton />
       <Footer />

@@ -13,7 +13,7 @@ export const Inicio = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = ["Ayuda.", "Contención.", "Atención."];
+    const toRotate = ["Ayuda.", "Inclusión.", "Atención."];
     const period = 2000;
 
     useEffect(() => {
@@ -62,7 +62,7 @@ export const Inicio = () => {
                                         {({ isVisible }) =>
                                             <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                                 <span className="tagline">Centro de día</span>
-                                                <h1>{"CEDIME es: "} <br /><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Ayuda." , "Contención." , "Atención" ]'><span className="wrap">{text}</span></span></h1>
+                                                <h1>{"CEDIME es: "} <br /><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Ayuda." , "Inclusión." , "Atención" ]'><span className="wrap">{text}</span></span></h1>
                                                 <p>Trabajamos día a día con jóvenes y adultos con discapacidad, por una mejor calidad de vida para ellos y su familia. ¡Te invitamos a que nos conozcas!</p>
                                             </div>}
                                     </TrackVisibility>
