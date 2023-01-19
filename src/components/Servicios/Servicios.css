@@ -1,5 +1,28 @@
 .Servicios{
-    background-color: rgb(212, 21, 46);
     width: 100%;
-    height: 80vh;
+    height: 100vh;
+    /* display: flex; */
+   
+}
+/* .titulo_servicios{
+   
+    align-items: center;
+} */
+
+.contenedor_check{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-left: 1rem;
+}
+.img_check{
+    width: 3rem;
+}
+
+.column{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
