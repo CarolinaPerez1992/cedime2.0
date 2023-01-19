@@ -1,5 +1,94 @@
-.Footer{
-    background-color: rgb(55, 36, 133);
-        width: 100%;
-        height: 20vh;
+
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        color: white;
+        gap: 1rem;
+        background-color: black;
+    }
+    
+    .footer h3 {
+        text-shadow: 0 0 5px #24b6f4, 0 0 10px #58CDFF, 0 0 15px #58CDFF, 0 0 20px #58CDFF, 0 0 25px #58CDFF, 0 0 30px #58CDFF, 0 0 35px #58CDFF;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logo-footer-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+    }
+    
+    .logo-footer-container h4 {
+        text-shadow: 0 0 5px #24b6f4, 0 0 10px #58CDFF, 0 0 15px #58CDFF, 0 0 20px #58CDFF, 0 0 25px #58CDFF, 0 0 30px #58CDFF, 0 0 35px #58CDFF;
+    }
+    
+    .logo-footer {
+        width: 7rem;
+        margin-top: 2rem;
+    }
+    
+    .socialmedia-container {
+        display: flex;
+        width: 8rem;
+        gap: 1rem;
+    }
+    
+    .img-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    .text-location {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: .5rem;
+        margin: .5rem;
+    }
+    
+    .payment-container {
+        width: 20rem;
+    }
+    
+    .map-text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: .5rem;
+    }
+    
+    .map-img {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+    }
+    
+    
+    .div-icon {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .pt {
+        margin-top: 0.5rem;
+    }
+    
+    .footer-warning {
+        text-align: center;
+        color: white;
+        background-color: #121212;
+        padding: 1em 0 .1em 0;
+    }
+    
+    .footer-container2 {
+        text-align: center;
+    }
+    
+    .socialmedia-container img{
+        width: 2em;
     }

@@ -4,6 +4,7 @@
         /* display: flex; */
         /* flex-wrap: wrap; */
         padding-bottom: 1rem;
+        background-color: beige;
     }
     .contenedor_titulo{
         display: flex;
@@ -55,12 +56,12 @@
 }
 
 .imagen2{
-    width: 25rem;
-    height: 19rem;
-    margin-bottom: 3rem;
+    width: 23rem;
+    height: 18rem;
+
 }
 .imagen3 {
-    width: 18rem;
+    width: 23rem;
     height: 18rem;
 
 }
