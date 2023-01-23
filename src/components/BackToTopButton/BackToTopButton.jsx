@@ -33,7 +33,7 @@ function BackToTopButton() {
           <div className="box">R</div>
         </button>
       )} */}
-      <button onClick={scrollUp}>
+      <button className='scroll_to_top' onClick={scrollUp}>
     <div class="arrow-up"></div>
 </button>
     </div>
