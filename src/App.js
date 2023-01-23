@@ -1,7 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Inicio from "./components/Inicio/Inicio.jsx"
-import Nosotros from "./components/Nosotros/Nosotros.jsx"
 import Filosofia from './components/Filofosia/Filosofia';
 import Blog from './components/Blog/Blog.jsx'
 import Colaboradores from "./components/Colaboradores/Colaboradores.jsx"
@@ -19,7 +18,6 @@ function App() {
       {/* <NavBar /> */}
       <div className="App">
         <Inicio />
-        <Nosotros />
         <Filosofia />
         <Servicios />
         <Equipo /> 

@@ -2,11 +2,10 @@ import React from 'react'
 import "./Footer.css"
 import facebook from "../../Assets/facebook.png"
 import instagram from "../../Assets/instagram.png"
-import whatsapp from "../../Assets/phone.png"
 import logo from "../../Assets/logo100.png"
 import llamada from "../../Assets/llamada.png"
-import mail from "../../Assets/mail2.jpg"
 import email from "../../Assets/email.png"
+import ubi from "../../Assets/marcador-de-posicion.png"
 
 
 const Footer = () => {
@@ -22,10 +21,6 @@ const Footer = () => {
                                 alt="instagram logo" /></a>
                             <a href="https://www.facebook.com/"><img className="redes-img" src={facebook}
                                 alt="facebook logo" /></a>
-                                <a href="https://web.whatsapp.com/"><img className="redes-img-phone" src={whatsapp}
-                                alt="whatsapp logo" /></a>
-                                <a href="https://www.facebook.com/"><img className="redes-img-phone" src={mail}
-                                alt="facebook logo" /></a>
                         </div>
                     </div>
 
@@ -39,6 +34,10 @@ const Footer = () => {
                         <div className='div-icon'>
                             <img className='img-icon' src={email} alt="" />
                             <p className='pt'>info@cedime.org.ar</p>
+                        </div>
+                        <div className='div-icon'>
+                            <img className='img-icon' src={ubi} alt="" />
+                            <p className='pt'>736, CVH, Lomas Valentinas, Ezeiza, Provincia de Buenos Aires</p>
                         </div>
                     </div>
 
