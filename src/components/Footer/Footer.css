@@ -37,6 +37,8 @@
         display: flex;
         width: 8rem;
         gap: 1rem;
+        margin-bottom: 2rem;
+        justify-content: center;
     }
     
     .img-icon {
@@ -62,6 +64,7 @@
         flex-wrap: wrap;
         gap: .5rem;
         color: black;
+        padding: 2rem;
     }
     
     .map-img {
@@ -97,3 +100,4 @@
     .redes-img-phone{
         border-radius:6px
     }
+    

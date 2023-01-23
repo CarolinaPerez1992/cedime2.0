@@ -100,6 +100,17 @@
     margin-bottom: 60%;
     border-bottom: 15px solid white;
   }
+    button svg {
+    width: 20px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(-50deg);
+    transition: 0.2s ease-out;
+  }
+  
+  button:hover svg {
+    transform: translateY(-50%) rotate(-90deg);
+  }
 
   /* button {
     width: 140px;
@@ -176,14 +187,3 @@
     transition-delay: 0.3s;
   }
   /* icon style and hover */
-  button svg {
-    width: 20px;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%) rotate(-50deg);
-    transition: 0.2s ease-out;
-  }
-  
-  button:hover svg {
-    transform: translateY(-50%) rotate(-90deg);
-  }

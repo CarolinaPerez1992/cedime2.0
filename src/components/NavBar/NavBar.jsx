@@ -41,7 +41,6 @@ function NavBar() {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#inicio" className={activeLink === 'inicio' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('inicio')}>Inicio</Nav.Link>
               <NavDropdown title="Nosotros" className='nosotros' id="basic-nav-dropdown">
                 <NavDropdown.Item href="#filosofia">Filosofia</NavDropdown.Item>
                 <NavDropdown.Item href="#equipo">Equipo Profesional</NavDropdown.Item>
