@@ -1,5 +1,5 @@
 .Colaboradores{
-    width: 100%;
+    max-width: 100%;
     min-height: 100vh;
     /* display: flex; */
     /* flex-wrap: wrap; */
@@ -30,4 +30,24 @@
     padding-left: 4rem;
 }
 
+.cajacol{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.colaboradores {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-size: 20px;
+    list-style-type: none;
+    text-align: start;
+}
+
+.colaboradores li{
+    margin: .2rem;
+}
 
