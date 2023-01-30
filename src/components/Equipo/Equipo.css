@@ -8,6 +8,7 @@
     }
     .contenedor_titulo{
         display: flex;
+        flex-wrap: wrap;
         justify-content:center;
         align-items: center;
         min-height: 14rem;
@@ -26,5 +27,4 @@
       .titulo_equipo{
         font-size: 4em;
         z-index: 1;
-        padding-left: 20rem;
     }

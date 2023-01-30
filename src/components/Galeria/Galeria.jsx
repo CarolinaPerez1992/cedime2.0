@@ -45,12 +45,13 @@ const Galeria = () => {
                     <img src={image} alt="imagenes_para_reemplazar" />
                   </motion.div >
               ))}
-
-
           </motion.div>
       </motion.div>
     </div>
-    <div className="container_galeria" >
+    <button className="button7">
+    <span className="button-content">Ver Más</span>
+</button>
+    {/* <div className="container_galeria" >
       <div className="row">
         <div className="col-lg-4 col-sm-6">
           <div className="thumbnail">
@@ -81,11 +82,8 @@ const Galeria = () => {
               </div>
             </div>
           </div>
-        </div>
-
+        </div> */}
       </div>
-    </div>
-    </div>
     </>
   )
 }
