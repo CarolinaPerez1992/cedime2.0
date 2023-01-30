@@ -3,11 +3,10 @@
     position: relative;
   }
   .skill-bx {
-    background: #151515;
     border-radius: 64px;
     text-align: center;
     padding: 60px 50px;
-    margin-top: -60px;
+    margin-top: 10px;
   }
 
 
@@ -17,14 +16,26 @@
     position: relative;
   }
 
-  .skill-slider .item2 img {
-    width: 50%;
+  /*CARDEQUIPO*/
+
+  .cardequipo{
+    width: 15rem;
+    height: 24rem;
+    background-color:blueviolet;
+    border-radius: 20px;
+    color: white;
+    width: 80%;
     margin: 0 auto 15px auto;
   }
-  .background-image-left {
-    top: 28%;
-    position: absolute;
-    bottom: 0;
-    width: 40%;
-    z-index: -4;
+
+  .cardequipo img{
+    width: 75%;
+    height: 45%;
+    border-radius: 50%;
+    margin: 1rem;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .cardequipo h3{
+    margin-top: 20px;
   }

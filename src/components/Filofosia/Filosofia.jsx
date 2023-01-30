@@ -14,7 +14,7 @@ const Filosofia = () => {
       </div>
       <div className='filosofia1'>
         <div className='contenedor__imagen'>
-            <img src={Imagen1} className='imagen1' alt="" />
+            <img src={Imagen1} className='imagen1 animate__animated animate__backInLeft' alt="" />
         </div>
         <div className='parrafo1'>
         <p>
@@ -31,7 +31,7 @@ const Filosofia = () => {
         </div>
       </div>
       <div className='filosofia2'>
-      <div className='contenedor__imagen'>
+      <div className='contenedor__imagen animate__animated animate__backInRight'>
             <img src={Imagen2} className='imagen2' alt="" />
         </div>
         <div className='parrafo2'>
@@ -49,7 +49,7 @@ const Filosofia = () => {
         </div>
       </div>
       <div className='filosofia1'>
-      <div className='contenedor__imagen'>
+      <div className='contenedor__imagen animate__animated animate__backInLeft'>
             <img src={Imagen3} className='imagen3' alt="" />
           
         </div>

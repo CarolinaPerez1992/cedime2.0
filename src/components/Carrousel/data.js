@@ -88,21 +88,4 @@ export const Sliderdata =
             img: "../../Assets/logo100.png"
         },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     ]

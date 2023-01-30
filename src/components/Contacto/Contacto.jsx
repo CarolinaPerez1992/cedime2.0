@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import "../Contacto/Contacto.css"
-
+import correo from "../../Assets/correogif.gif"
 
 const Contacto = () => {
 
@@ -15,7 +15,12 @@ const Contacto = () => {
                 <div className='blob7'></div>
                 <h2 className="titulo_contacto">Contacto</h2>
             </div>
+            <div className="contactopadre">
+<div className='preform'>
+<h3>Para mas información o para ser parte de nuestro proyecto,  deja tus datos y nos contactaremos  la brevedad.</h3>
+
             <form className="form" onSubmit={() => { }}>
+    
                 <input
                     className="input"
                     type="text"
@@ -41,6 +46,9 @@ const Contacto = () => {
 
                 <input className="button" type="submit" value="Enviar" />
             </form>
+            </div>
+        <img src={correo} width="500"/>    
+        </div>
         </div>
 
 

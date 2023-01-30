@@ -15,10 +15,10 @@ const Servicios = () => {
       
       <div className='contenedor_servicios'>
         <div className='img_personas'>
-          <img className='personas' src={personas} alt="" />
+          <img className='personasimg' src={personas} alt="" />
         </div>
         
-     
+     <div className="columpadre">
         <div className="column_servicio">
           <div>
             <img className="img_check" src={check} alt="" />
@@ -87,7 +87,7 @@ const Servicios = () => {
         </div>
       </div>
     </div>
-    
+    </div>
   );
 };
 
