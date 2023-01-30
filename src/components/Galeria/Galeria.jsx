@@ -82,69 +82,7 @@ const Galeria = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-sm-6">
-          <div className="thumbnail">
-            <div className="img-container">
-              <div>
-              <img src="https://picsum.photos/seed/picsum/500/700" alt="img_random" className='image_galeria'/>
-              </div>
-              <div className="over_galeria">
 
-                <p className="caption">Info</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-sm-6">
-          <div className="thumbnail">
-            <div className="img-container">
-              <img src="https://picsum.photos/seed/picsum/500/700" alt="img_random" className='image_galeria'/>
-              <div className="over_galeria">
-                <p className="caption">Info</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-sm-6">
-          <div className="thumbnail">
-            <div className="img-container">
-              <img src="https://picsum.photos/seed/picsum/500/700" alt="img_random" className='image_galeria'/>
-              <div className="over_galeria">
-                <p className="caption">Info</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-sm-6">
-          <div className="thumbnail">
-            <div className="img-container">
-              <img src="https://picsum.photos/seed/picsum/500/700" alt="img_random" className='image_galeria'/>
-              <div className="over_galeria">
-                <p className="caption">Info</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-sm-6">
-          <div className="thumbnail">
-            <div className="img-container">
-              <img src="https://picsum.photos/seed/picsum/500/700" alt="img_random" className='image_galeria'/>
-              <div className="over_galeria">
-                <p className="caption">Info</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-sm-6">
-          <div className="thumbnail">
-            <div className="img-container">
-              <img src="https://picsum.photos/seed/picsum/500/700" alt="img_random" className='image_galeria'/>
-              <div className="over_galeria">
-                <p className="caption">Info</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
     </div>
