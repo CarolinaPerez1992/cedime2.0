@@ -2,10 +2,8 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../../Assets/arrow1.svg";
 import arrow2 from "../../Assets/arrow2.svg"
-
+import { Sliderdata } from './data';
 import "../Carrousel/Carrousel.css"
-import nino from  "../../Assets/nino.png"
-import nina from  "../../Assets/nina.png"
 const Skills = () => {
     const responsive = {
       superLargeDesktop: {
@@ -28,34 +26,20 @@ const Skills = () => {
     };
   
     return (
-      <section className="skill" id="skills">
+      <section className="skill">
           <div className="container">
               <div className="row">
                   <div className="col-12">
                       <div className="skill-bx wow zoomIn">
 
                           <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                            {Sliderdata.map((item)=>(
                           <div className='cardequipo item2'>
-                                <img src={nino} alt="" />
-                                <h3>nombre medico</h3>
-                                <h4>profesion</h4>
+                                <img src={item.img} alt="" width="500"/>
+                                <h3>{item.name}</h3>
+                                <h4>{item.profesion}</h4>
                               </div>
-                                <div className='cardequipo item2'>
-                                <img src={nina} alt="" />
-                                <h3>nombre medico</h3>
-                                <h4>profesion</h4>
-                              </div>
-                              <div className='cardequipo item2'>
-                                <img src={nino} alt="" />
-                                <h3>nombre medico</h3>
-                                <h4>profesion</h4>
-                              </div>
-                                <div className='cardequipo item2'>
-                                <img src={nina} alt="" />
-                                <h3>nombre medico</h3>
-                                <h4>profesion</h4>
-                              </div>
-
+                            ))}
                           </Carousel>
                       </div>
                      
