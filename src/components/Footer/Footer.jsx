@@ -48,8 +48,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-warning">
-                    <h6>Cedime® 2023
-                        Developed by Caro</h6>
+                    <h6>Cedime® 2023</h6>
                 </div>
 
             </footer>
