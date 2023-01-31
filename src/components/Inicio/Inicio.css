@@ -87,3 +87,12 @@
   width: 100%;
   height: auto;
 }
+
+
+/*QUERYS*/
+@media (max-width:420px){
+.banner h1 {
+  font-size: 50px; 
+text-align: center;
+}
+}

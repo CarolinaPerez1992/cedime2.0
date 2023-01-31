@@ -109,3 +109,11 @@
   transform: scale(1.01);
 }
 
+/*QUERYS*/
+
+@media (max-width:550px) {
+
+  .contactopadre img {
+   width: 90%;
+  }
+}
