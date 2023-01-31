@@ -94,6 +94,6 @@
 
     .columpadre {
         justify-content: flex-start;
-        margin: 1rem 0;
+        margin: 1rem 30px;
     }
 }
