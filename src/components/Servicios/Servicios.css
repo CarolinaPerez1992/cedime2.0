@@ -65,3 +65,35 @@
 .personasimg{
     width: 35rem;
 }
+
+
+
+
+
+/*querys*/
+
+@media (max-width: 1035px) {
+
+.columpadre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;}
+}
+
+@media (max-width: 800px){
+
+.personasimg{
+    width: 90%;
+}
+}
+
+@media (max-width: 505px){
+    .column_servicio {
+        margin: 0;
+    }
+
+    .columpadre {
+        justify-content: flex-start;
+        margin: 1rem 0;
+    }
+}
